@@ -46,6 +46,7 @@ pip install opencv-python dlib imutils scipy playsound
 ---
 
 5.How It Works
+
 i.The webcam captures video frames.
 
 ii.dlib detects the driver’s face and extracts facial landmarks.
