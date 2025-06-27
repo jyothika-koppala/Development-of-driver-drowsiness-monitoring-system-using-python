@@ -1,9 +1,5 @@
 # Development-of-driver-drowsiness-monitoring-system-using-python
 This Python-based system uses computer vision and facial landmarks to monitor a driver's eye activity in real-time. By calculating the Eye Aspect Ratio (EAR), it detects drowsiness and triggers an alarm if the eyes remain closed beyond a safe limit, helping prevent microsleep-related accidents.
-# Driver Drowsiness Monitoring System Using Python
-
-A real-time driver drowsiness detection system using computer vision and Python. This project helps to prevent road accidents by alerting drivers when they show signs of drowsiness.
-
 ---
 
 1.Features
