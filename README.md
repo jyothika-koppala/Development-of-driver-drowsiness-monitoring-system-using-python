@@ -85,14 +85,3 @@ driver-drowsiness-monitoring/
 
 ---
 
-9.Future Enhancements
-
-> Integrate with Raspberry Pi and buzzer module
-
-> Add head tilt detection for better accuracy
-
-> Log drowsiness events for analytics
-
-> Use deep learning for better prediction
-
----
