@@ -38,11 +38,13 @@ To develop a smart vision-based system that continuously monitors the driver's e
 git clone https://github.com/your-username/driver-drowsiness-monitoring.git
 cd driver-drowsiness-monitoring
 ```
-#2.Install Required Packages
+#2. Install Required Packages
 
 ```bash
 pip install opencv-python dlib imutils scipy playsound
 ```
+---
+
 5.How It Works
 i.The webcam captures video frames.
 
@@ -54,18 +56,23 @@ iv.If the EAR is below a set threshold for a number of frames, the system identi
 
 v.A sound alarm is triggered to alert the driver.
 
+---
+
 6.Eye Aspect Ratio (EAR)
 
 ```bash
 EAR = (||p2 - p6|| + ||p3 - p5||) / (2 * ||p1 - p4||)
 ```
+---
+
 7.Usage
 
 ```bash
 python drowsiness_detector.py
 ```
+--- 
 
-8. File Structure
+8.File Structure
 
 ```bash
 driver-drowsiness-monitoring/
@@ -74,6 +81,8 @@ driver-drowsiness-monitoring/
 ├── alarm.wav
 ├── README.md
 ```
+
+---
 
 9.Future Enhancements
 
@@ -85,3 +94,4 @@ driver-drowsiness-monitoring/
 
 > Use deep learning for better prediction
 
+---
